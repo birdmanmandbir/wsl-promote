@@ -1,0 +1,16 @@
+{
+  "name": "wsl-promote",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev promote.md",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.38.0",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "xterm": "^5.0.0",
+    "xterm-addon-fit": "^0.6.0"
+  }
+}
